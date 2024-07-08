@@ -1,0 +1,13 @@
+.cointainer{
+    margin: auto;
+    max-width: 1365px;
+}
+.none{
+    display: none;
+}
+.padding{
+    padding-top: 52px;
+    padding-right: 64px;
+    padding-bottom: 52px;
+    padding-left: 64px;
+}
