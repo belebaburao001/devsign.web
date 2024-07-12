@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 920px) {
     nav{
         padding: 0 20px;
     }
@@ -32,6 +32,9 @@
         font-weight: 500;
         cursor: pointer;
     }
+   .nav-links .sign-up{
+        display: none;
+    }
     nav #menu{
         font-size: 2.5rem;
         font-weight: 600;
@@ -40,7 +43,38 @@
     .none{
         display: block;
     }
-    .nav-btn a{
+    .nav-2{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+    .nav-2 .sign-up{
+        border: 2px solid #4E525A;
+    }
+    .nav-2 .sign-up:hover{
+        border: 2px solid #007FFF;
+    }
+}
+@media (max-width: 490px) {
+    .nav-links .sign-up{
+        display: block;
+    }
+    .nav-links .sign-up{
+        color: #ffffff;
+        font-size: 2rem;
+        font-weight: 600;
+        border: 2px solid #fff;
+        padding: 10px 18px;
+        border-radius: 20px;
+        background: transparent;
+        transition: all ease 0.3s;
+    }
+    .nav-links .sign-up:hover{
+        background: #007FFF;
+        color: #fff;
+        border: 2px solid #007FFF;
+    }
+   .nav-2 .sign-up{
         display: none;
     }
 }
