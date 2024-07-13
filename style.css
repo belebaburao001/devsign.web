@@ -38,10 +38,10 @@ nav{
 .nav-links a:hover{
     color: #007FFF;
 }
-.nav-links .sign-up{
+.nav-links .sign-in{
     display: none;
 }
-.nav-2 .sign-up{
+.nav-2 .sign-in{
     font-size: 18px;
     font-weight: 600;
     color: #4E525A;
@@ -51,7 +51,7 @@ nav{
     background: transparent;
     transition: all ease 0.3s;
 }
-.nav-2 .sign-up:hover{
+.nav-2 .sign-in:hover{
     background: #007FFF;
     color: #fff;
     border: 1px solid #007FFF;
@@ -613,13 +613,13 @@ nav{
     cursor: pointer;
 }
 
-/* Signup Page */
-.signup-section-content{
+/* Signin Page */
+.signin-section-content{
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.signup-form-container{
+.signin-form-container{
     width:682.5px;
     height: auto;
     background-color: #fff;
@@ -632,25 +632,25 @@ nav{
     justify-content: center;
     flex-direction: column;
 }
-.signup-form-container h1{
+.signin-form-container h1{
     font-size: 40px;
     color: #24262F;
     margin-bottom: 10px;
 }
-.signup-form-container p{
+.signin-form-container p{
     font-size: 20px;
     color: #4E525A;
     margin-bottom: 20px;
     text-align: center;
 }
-#signup-form{
+#signin-form{
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-#signup-form input{
+#signin-form input{
     width: 100%;
     min-height: 4rem;
     color: #24262F;
@@ -662,10 +662,10 @@ nav{
     font-size: 16px;
     line-height: 140%;
 }
-#signup-form input:focus{
+#signin-form input:focus{
     border: 1px solid #24262F;
 }
-#signup-form #signup{
+#signin-form #signin{
     backdrop-filter: none;
     color: #fff;
     background-color: #24262F;
@@ -683,21 +683,21 @@ nav{
     overflow: hidden;
     cursor: pointer;
 }
-.signup-form-container .signup-with-google{
+.signin-form-container .signin-with-google{
     width: 100%;
     display: flex;
     align-items: center;
     justify-self: center;
     flex-direction: column;
 }
-.signup-form-container .signup-with-google .span-div{
+.signin-form-container .signin-with-google .span-div{
     display: flex;
     width: 100%;
     margin-bottom: 20px;
     gap: 10px;
     align-items: center;
 }
-.signup-with-google .span-div .span-line{
+.signin-with-google .span-div .span-line{
     height: 1px;
     width: 100%;
     background: #4E525A;
@@ -705,7 +705,7 @@ nav{
 .span-div span .or{
     color: #24262F;
 }
-.signup-with-google .google-signup{
+.signin-with-google .google-signin{
     display: flex;
     width: 100%;
     gap: 12px;
@@ -716,7 +716,7 @@ nav{
     border-radius: 50px;
     cursor: pointer;
 }
-.google-signup span{
+.google-signin span{
     font-size: 20px;
     color: #24262F;
 }

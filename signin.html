@@ -14,7 +14,7 @@
     <!-- NavBar -->
     <nav id="nav">
         <div class="logo">
-            <a href="#nav">
+            <a href="index.html">
                 <img src="./Assets/Logo.png" width="180px" height="50px">
             </a>
         </div>
@@ -23,36 +23,36 @@
             <a href="about.html">About</a>
             <a href="projects.html">Projects</a>
             <a href="connect.html">Connect</a>
-            <a href="#nav" class="sign-up">Sign Up</a>
+            <a href="signin.html" class="sign-in">Sign In</a>
             <i id="closed" class="ri-close-line none"></i>
         </div>
         <div class="nav-2">
-            <a href="signup.html" class="sign-up">Sign Up</a>
+            <a href="#nav" class="sign-in">Sign In</a>
             <i id="menu" class="ri-menu-3-line none"></i>
         </div>
     </nav>
-    <!-- SignUp Section -->
-    <section class="signup-section" id="signup-section">
+    <!-- SignIn Section -->
+    <section class="signin-section" id="signin-section">
         <div class="cointainer">
             <div class="padding">
-                <div class="signup-section-content">
-                    <div class="signup-form-container">
-                        <h1>Sign Up</h1>
+                <div class="signin-section-content">
+                    <div class="signin-form-container">
+                        <h1>Sign In</h1>
                         <p>Let's create something amazing together.</p>
-                        <form id="signup-form">
+                        <form id="signin-form">
                             <input type="text" placeholder="Email" id="email" required>
                             <input type="password" placeholder="Password" id="password" required>
-                            <input type="submit" id="signup" value="Sing Up" onclick="signUp()">
+                            <input type="submit" id="signin" value="Sing In">
                         </form>
-                        <div class="signup-with-google">
+                        <div class="signin-with-google">
                             <div class="span-div">
                                 <span class="span-line"></span>
                                 <span class="or">or</span>
                                 <span class="span-line"></span>
                             </div>
-                            <div class="google-signup">
+                            <div class="google-signin" id="google-signin">
                                 <img src="./Assets/google-logo-icon-png.png" width="35px" height="35px">
-                                <span>Sign Up with Google</span>
+                                <span>Sign In with Google</span>
                             </div>
                         </div>
                     </div>
@@ -77,9 +77,9 @@
                                     links
                                 </span>
                                 <span class="list-itoms">
-                                    <a href="#nav" id="footer-link">Home</a>
+                                    <a href="index.html" id="footer-link">Home</a>
                                     <a href="about.html" id="footer-link">About</a>
-                                    <a href="#project-section" id="footer-link">Projects</a>
+                                    <a href="projects.html" id="footer-link">Projects</a>
                                     <a href="connect.html" id="footer-link">Connect</a>
                                     <a href="#" id="footer-link">Admin Panal</a>
                                 </span>

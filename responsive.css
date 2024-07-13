@@ -32,7 +32,7 @@
         font-weight: 500;
         cursor: pointer;
     }
-   .nav-links .sign-up{
+   .nav-links .sign-in{
         display: none;
     }
     nav #menu{
@@ -48,18 +48,18 @@
         gap: 20px;
         align-items: center;
     }
-    .nav-2 .sign-up{
+    .nav-2 .sign-in{
         border: 2px solid #4E525A;
     }
-    .nav-2 .sign-up:hover{
+    .nav-2 .sign-in:hover{
         border: 2px solid #007FFF;
     }
 }
 @media (max-width: 490px) {
-    .nav-links .sign-up{
+    .nav-links .sign-in{
         display: block;
     }
-    .nav-links .sign-up{
+    .nav-links .sign-in{
         color: #ffffff;
         font-size: 2rem;
         font-weight: 600;
@@ -69,12 +69,12 @@
         background: transparent;
         transition: all ease 0.3s;
     }
-    .nav-links .sign-up:hover{
+    .nav-links .sign-in:hover{
         background: #007FFF;
         color: #fff;
         border: 2px solid #007FFF;
     }
-   .nav-2 .sign-up{
+   .nav-2 .sign-in{
         display: none;
     }
 }
