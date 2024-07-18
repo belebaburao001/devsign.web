@@ -92,6 +92,35 @@ function projectsTextAnimation() {
     }
     
 projectsTextAnimation();
-    
-    
-    
+
+// Hero Section Animation
+gsap.from(".text-content, .hero-img", {
+    y: 100,
+    duration: 0.5,
+    stagger: 0.2
+});
+
+// About Section Animation
+gsap.from(".first, .second, .third, .hr", {
+    y: 100,
+    opacity:0,
+    duration: 0.5,
+    stagger: 0.3,
+    scrollTrigger:{
+        trigger: ".about-first",
+        scroller:"body",
+        markers:true,
+        start:"top 60%"
+    }
+});
+
+gsap.from(".about-second", {
+    y: 100,
+    duration: 0.5,
+    scrollTrigger:{
+        trigger: ".about-first",
+        scroller:"body",
+        markers:true,
+        start:"top 60%"
+    }
+});

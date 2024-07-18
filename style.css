@@ -24,6 +24,7 @@ nav{
     justify-content: space-between;
     margin: auto;
     max-width: calc(1450px);
+    background: #F9F9F9;
 }
 .nav-links{
     display: flex;
@@ -611,114 +612,6 @@ nav{
     text-decoration: none;
     overflow: hidden;
     cursor: pointer;
-}
-
-/* Signin Page */
-.signin-section-content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.signin-form-container{
-    width:682.5px;
-    height: auto;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-.signin-form-container h1{
-    font-size: 40px;
-    color: #24262F;
-    margin-bottom: 10px;
-}
-.signin-form-container p{
-    font-size: 20px;
-    color: #4E525A;
-    margin-bottom: 20px;
-    text-align: center;
-}
-#signin-form{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-#signin-form input{
-    width: 100%;
-    min-height: 4rem;
-    color: #24262F;
-    background-color: #e4e1da;
-    border: 2px solid transparent;
-    border-radius: 0;
-    margin-bottom: 20px;
-    padding: 1rem 1.25rem;
-    font-size: 16px;
-    line-height: 140%;
-}
-#signin-form input:focus{
-    border: 1px solid #24262F;
-}
-#signin-form #signin{
-    backdrop-filter: none;
-    color: #fff;
-    background-color: #24262F;
-    border-width: 1px;
-    border-color: transparent;
-    text-align: center;
-    border: 2px solid #24262F;
-    border-radius: 50px;
-    margin-bottom: 20px;
-    padding: 1rem 1.75rem;
-    font-size: 1.125rem;
-    font-weight: 600;
-    line-height: 110%;
-    text-decoration: none;
-    overflow: hidden;
-    cursor: pointer;
-}
-.signin-form-container .signin-with-google{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-self: center;
-    flex-direction: column;
-}
-.signin-form-container .signin-with-google .span-div{
-    display: flex;
-    width: 100%;
-    margin-bottom: 20px;
-    gap: 10px;
-    align-items: center;
-}
-.signin-with-google .span-div .span-line{
-    height: 1px;
-    width: 100%;
-    background: #4E525A;
-}
-.span-div span .or{
-    color: #24262F;
-}
-.signin-with-google .google-signin{
-    display: flex;
-    width: 100%;
-    gap: 12px;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #24262F;
-    padding: 10px;
-    border-radius: 50px;
-    cursor: pointer;
-}
-.google-signin span{
-    font-size: 20px;
-    color: #24262F;
 }
 
 /* Footer */
