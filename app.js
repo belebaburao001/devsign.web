@@ -94,33 +94,93 @@ function projectsTextAnimation() {
 projectsTextAnimation();
 
 // Hero Section Animation
-gsap.from(".text-content, .hero-img", {
-    y: 100,
-    duration: 0.5,
-    stagger: 0.2
+gsap.from(".text-content", {
+    x: -150,
+    opacity:0,
+    duration: 0.6,
+    stagger: 0.5
+});
+gsap.from(".hero-img", {
+    x: 150,
+    opacity:0,
+    duration: 0.6,
+    stagger: 0.5
 });
 
 // About Section Animation
 gsap.from(".first, .second, .third, .hr", {
-    y: 100,
+    y: 150,
     opacity:0,
-    duration: 0.5,
+    duration: 0.6,
     stagger: 0.3,
     scrollTrigger:{
         trigger: ".about-first",
-        scroller:"body",
-        markers:true,
-        start:"top 60%"
+        scroller:"body"
     }
 });
 
 gsap.from(".about-second", {
-    y: 100,
-    duration: 0.5,
+    y: 150,
+    duration: 0.6,
     scrollTrigger:{
         trigger: ".about-first",
-        scroller:"body",
-        markers:true,
-        start:"top 60%"
+        scroller:"body"
+    }
+});
+
+// About Page Animation
+gsap.from(".about-page-text-content", {
+    x: 150,
+    opacity:0,
+    duration: 0.6,
+});
+
+gsap.from(".about-page-img", {
+    x: -150,
+    opacity:0,
+    duration: 0.6,
+    scrollTrigger:{
+        trigger: ".about-page-img",
+        scroller:"body"
+    }
+});
+
+// Project Section Animation
+gsap.from(".main-heading, .project", {
+    y: 150,
+    opacity:0,
+    duration: 0.6,
+    stagger: 0.3,
+    scrollTrigger:{
+        trigger: ".main-heading, .project",
+        scroller:"body"
+    }
+});
+
+// Connect Page Animation
+gsap.from(".connect-page-text-content", {
+    x: 150,
+    opacity:0,
+    duration: 0.6,
+});
+
+gsap.from(".connect-page-img", {
+    x: -150,
+    opacity:0,
+    duration: 0.6,
+    scrollTrigger:{
+        trigger: ".connect-page-img",
+        scroller:"body"
+    }
+});
+
+// Footer Animation
+gsap.from("footer, #connect-section", {
+    y: 150,
+    opacity:0,
+    duration: 0.6,
+    scrollTrigger:{
+        trigger: "footer, #connect-section",
+        scroller:"body"
     }
 });
