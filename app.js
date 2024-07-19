@@ -93,6 +93,10 @@ function projectsTextAnimation() {
     
 projectsTextAnimation();
 
+
+// GSAP Animation
+document.addEventListener("DOMContentLoaded", function() {
+
 gsap.registerPlugin(ScrollTrigger);
 
 // General settings for GSAP
@@ -191,4 +195,5 @@ gsap.from(".hero-img", {
           scroller: "body"
       }
   });
+})
   
